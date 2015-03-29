@@ -42,7 +42,7 @@ class: center, middle, inverse, huge-title
 ---
 class: center, middle
 # Slides
-## [devinclark.github.io/maptime-okc-leaflet](devinclark.github.io/maptime-okc-leaflet)
+## [http://devinclark.github.io/maptime-okc-leaflet](devinclark.github.io/maptime-okc-leaflet)
 
 ---
 class: center, middle, inverse, huge-title
