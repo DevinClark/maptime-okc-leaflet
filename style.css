@@ -5,7 +5,7 @@ body {
   font-family: 'Droid Serif';
   font-size: 26px;
 }
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald';
   font-weight: 400;
   margin-bottom: 0;
@@ -62,8 +62,8 @@ code {
   padding: 15px;
 }
 .inverse {
-  background: #1A4162;
-  color: #777872;
+  background-color: #1A4162;
+  color: #f3f3f3;
   text-shadow: 0 0 20px #333;
 }
 .inverse h1,
@@ -73,6 +73,12 @@ code {
 .inverse h5 {
   color: #f3f3f3;
   line-height: 1.1em;
+}
+.inverse a {
+  color: #f3f3f3;
+}
+.inverse pre {
+  text-shadow: none;
 }
 
 /* Slide-specific styling */
@@ -123,6 +129,16 @@ ul ul {
 }
 .huge-title h2 {
   font-size: 100px;
+  margin: 0;
+  line-height: 1.5;
+}
+.huge-title h3 {
+  font-size: 80px;
+  margin: 0;
+  line-height: 1.5;
+}
+.huge-title h4 {
+  font-size: 60px;
   margin: 0;
   line-height: 1.5;
 }
