@@ -38,7 +38,7 @@ class: center, middle, inverse, huge-title
 # Interrupt Me
 
 ???
-
+I want this to be more of a conversation.
 ---
 class: center, middle
 # Slides
@@ -166,6 +166,9 @@ layout: false
 class: center, middle, huge-title
 # To This...
 
+???
+LLAMA
+
 ---
 background-image: url(img/duck-geojson.png)
 layout: false
@@ -177,6 +180,14 @@ background-image: url(img/duck.png)
 layout: false
 class: center, middle, inverse, huge-title
 # into this...
+
+???
+A duck Jordan made.
+
+---
+layout: false
+class: center, middle, inverse, huge-title
+# geojson.io
 
 ---
 layout: false
@@ -199,12 +210,17 @@ var circle = L.circle([35.478377, -97.519370], 10, {
   fillOpacity: '0.45'
 }).addTo(map);
 ```
-
+???
+* Initialize the map
+* Center the map on Prototek at zoom level 18
+* Create a leaflet circle centered at prototek with a 10 meter radius
+* style the circle
+* Add it to the map (very important)
 ---
 layout: false
 class: center, middle, inverse, huge-title
 # Simple Example
-[with basemap tiles](http://rousseau.io/okcjs-mapping/demo/)
+[with basemap tiles](demo/)
 ```js
 var tiles = L.tileLayer(
   'https://{s}.tiles.mapbox.com/v3/MAPID/{z}/{x}/{y}.png'
@@ -228,12 +244,22 @@ class: center, middle, inverse, huge-title
 background-image: url(img/global-obs.png)
 layout: false
 class: center, middle, inverse, huge-title
-### [Surface Observations](http://rousseau.io/okcjs-mapping/demo/turf-obs/obs.html)
+### [Surface Observations](demo/turf-obs/obs.html)
 
 ---
 background-image: url(img/global-obs-2.png)
 layout: false
 class: center, middle, inverse, huge-title
+
+---
+background-image: url(img/obs-hexg.png)
+layout: false
+class: center, middle, inverse, huge-title
+### [Surface Observations](demo/turf-obs/hex.html)
+#### Turf Hex Grid
+
+???
+Turf is a Geospatial analysis library written in JavaScript. Something that should be covered at a future maptime.
 
 ---
 background-image: url(img/conus-hail-z5.png)
@@ -252,10 +278,15 @@ layout: false
 class: center, middle, inverse, huge-title
 
 ---
+background-image: url(img/hail-norman-z12.png)
+layout: false
+class: center, middle, inverse, huge-title
+
+---
 background-image: url(img/global-ltg.png)
 layout: false
 class: center, middle, inverse, huge-title
-### [Global Lightning](http://rousseau.io/okcjs-mapping/demo/turf-obs/obs.html)
+### [Global Lightning](demo/turf-obs/obs.html)
 #### May 2014
 
 ???
@@ -288,3 +319,4 @@ layout: false
 * [Learn GeoJSON by Lyzi Diamond](https://github.com/lyzidiamond/learn-geojson)
 * [Maptime Resources](http://maptime.io/lessons-resources/)
 * [Visualizing a month of lightning](http://rousseau.io/2015/03/23/visualizing-a-month-of-lightning/)
+* [Intro to Turf.js](https://www.mapbox.com/guides/intro-to-turf/)
